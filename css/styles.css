@@ -15,6 +15,9 @@ color: #212121;
 font-family: 'Roboto';
 }
 
+.hide {
+list-style-type: none;
+}
 .logo-link {
 font-family: 'Raleway',sans-serif;
     color: var(--accent-color);
@@ -33,6 +36,12 @@ font-family: 'Raleway',sans-serif;
 .link {
 color: var(--primary-text-color);
 list-style-type: none;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .studio-link  {
@@ -70,6 +79,14 @@ list-style: none;
 
 /* Фільтри */
 .button-all {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        text-align: center;
+        letter-spacing: 0.03em;
 color: #FFFFFF;
 background: var(--accent-color);
 }
@@ -77,6 +94,15 @@ background: var(--accent-color);
 .web-sites {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        text-align: center;
+        letter-spacing: 0.03em;
+        list-style-type: none;
 }
 
 .design, 
@@ -84,6 +110,15 @@ background: var(--accent-color);
 .apps {
     color: var(--primary-text-color);
         background: #F5F4FA;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            /* identical to box height, or 162% */
+            text-align: center;
+            letter-spacing: 0.03em;
+            list-style-type: none;
 }
 
 .project {
@@ -131,6 +166,16 @@ background: var(--accent-color);
 .button {
 color: #F5F5F5;
 background: var(--accent-color);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 } 
 
 .content {
@@ -155,22 +200,23 @@ font-family: 'Roboto';
 .features-text {
 color: var(--title-text-color);
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
 }
 
 .what-we-do-title {
     color:var(--primary-text-color);
-    font-family: 'Roboto';
+font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .specialties {
@@ -180,11 +226,12 @@ list-style-type: none;
 .team-main-title {
     color: var(--primary-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .team {
@@ -193,10 +240,26 @@ list-style-type: none;
 
 .team-title {
 color: var(--primary-text-color);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-activity {
 color: var(--title-text-color);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .footer-bg {
@@ -209,13 +272,13 @@ color: var(--title-text-color);
 }
 
 .footer-logo {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        /* identical to box height */
-        letter-spacing: 0.03em;
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
         color:var(--accent-color);
 }
 
@@ -243,7 +306,13 @@ color: var(--title-text-color);
 
 .footer-telephone , 
 .footer-email {
-    font-family: 'Roboto';
-        color: rgba(255, 255, 255, 0.6);
-        list-style: none;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    list-style-type: none;
 }
