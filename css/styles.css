@@ -40,8 +40,9 @@ font-family: 'Raleway',sans-serif;
     color:#2196F3
 } */
 .logo-link:focus {
-  color:#188CE8;
-  /* border: #2196F3; */
+  color:#2196F3;
+  background: #FFFFFF;
+  /* background-color:var(--primary-text-color); */
 }
 /* logo */
 .logo-header {
@@ -55,8 +56,8 @@ font-family: 'Raleway',sans-serif;
 } */
 /* logo */
 .logo-header:focus {
-    color:#188CE8;
-    /* border: #2196F3; */
+    color:var(--primary-text-color);
+    background: #FFFFFF;;
 }
 .site-nav .link.current {
     color: var(--accent-color);
@@ -152,8 +153,9 @@ list-style-type: none;
 } */
 
 .button:focus {
-    color:var(--focus-color);
-    background-color:#FFFFFF;
+    color:#F5F4FA;
+    background:var(--focus-color);
+    text-transform: none;
 }
 
 .button-all {
@@ -171,7 +173,7 @@ cursor: pointer;
 .button-all:active,
 .button-all:hover{ 
     background-color:var(--accent-color);
-        color: #FFFFFF;
+    color: #FFFFFF;
         }
 
 
@@ -189,7 +191,8 @@ cursor: pointer;
 }
 .web-sites:hover,
 .web-sites:focus{
-    background:#F5F4FA;
+    background-color:#F5F4FA;
+    color: #212121
 }
 
 .design, 
@@ -208,15 +211,18 @@ cursor: pointer;
 }
 .apps:hover,
 .apps:focus{
-background: #F5F4FA;
+    background-color: #F5F4FA;
+    color: #212121
 }
 .design:hover,
 .design:focus{
-background: #F5F4FA;
+    background-color: #F5F4FA;
+    color: #212121
 }
 .marketing:hover,
 .marketing:focus{
-    background: #F5F4FA;
+        background-color: #F5F4FA;
+        color: #212121
 }
 
 
@@ -346,7 +352,8 @@ font-family: 'Raleway';
 }
 
 .footer-logo:focus {
-    color:#2196F3;
+    color: #2196F3;
+    background-color: #2F303A;
 }
 
 .logo {
@@ -362,6 +369,7 @@ font-family: 'Raleway';
 
 .logo:focus {
     color: #2196F3;
+    background-color: #2F303A;
 }
 
 .footer-adress {
