@@ -33,6 +33,7 @@ font-family: 'Raleway',sans-serif;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+/*         margin-left: 215px; */
 }
 /* logo */
 
@@ -49,6 +50,11 @@ font-family: 'Raleway',sans-serif;
     font-family: 'Raleway', sans-serif;
     color: #000000;
     list-style-type: none;
+            font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.19;
+                letter-spacing: 0.03em;
     /* ext-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 /* .logo-header:hover {
@@ -82,6 +88,13 @@ list-style-type: none;
 color: var(--primary-text-color);
 list-style-type: none;
 text-decoration: none;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.site-nav .studio-link.current {
+    color: var(--accent-color);
 }
 
 .studio-link:hover {
@@ -104,8 +117,14 @@ color: #188CE8;
 
 
 .email-link {
+    font-family: 'Roboto';
+    font-style: normal;
     color: var(--title-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .email-link:hover {
@@ -126,6 +145,10 @@ list-style-type: none;
     color: var(--title-text-color);
     list-style-type: none;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .tel-link:focus {
@@ -148,83 +171,191 @@ list-style-type: none;
     cursor: pointer
 }
 
-/* .button:hover {
-    color: #2196F3;
-} */
-
+.button:hover,
 .button:focus {
+/*     border: 2px solid #2196F3; */
     color:#F5F4FA;
-    background:var(--focus-color);
+    background: rgba(33, 150, 243, 1);
     text-transform: none;
+    border-radius: 4px;
+    border-color: #2196F3;
 }
 
-.button-all {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.63;
-        /* identical to box height, or 162% */
-        text-align: center;
-        letter-spacing: 0.03em;
-color: #FFFFFF;
-background: var(--accent-color);
-cursor: pointer;
-}
-
-.button-all:active,
-.button-all:hover{ 
-    background-color:var(--accent-color);
-    color: #FFFFFF;
-        }
-
-
-.web-sites {
-    color: var(--primary-text-color);
-    background-color: #F5F4FA;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.63;
-        /* identical to box height, or 162% */
-        text-align: center;
-        letter-spacing: 0.03em;
-        list-style-type: none;
-        cursor: pointer
-}
-.web-sites:hover,
-.web-sites:focus{
-    background-color:#F5F4FA;
-    color: #212121
-}
-
-.design, 
-.marketing,
-.apps {
-    color: var(--primary-text-color);
-        background: #F5F4FA;
+.button-all{
+    width: 73px;
+        height: 38px;
+        left: 512px;
+        top: 174px;
+        background: #2196F3;
+        font-family: 'Roboto';
+            font-style: normal;
             font-weight: 500;
             font-size: 16px;
-            line-height: 1.63;
+            line-height: 1.62;
             /* identical to box height, or 162% */
             text-align: center;
             letter-spacing: 0.03em;
-            list-style-type: none;
-            cursor: pointer
-}
-.apps:hover,
-.apps:focus{
-    background-color: #F5F4FA;
-    color: #212121
-}
-.design:hover,
-.design:focus{
-    background-color: #F5F4FA;
-    color: #212121
-}
-.marketing:hover,
-.marketing:focus{
-        background-color: #F5F4FA;
-        color: #212121
+            color: #FFFFFF;
+        /* shadow-middle */
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border: 1px solid transparent;
+        border-radius: 4px;
 }
 
+.button-all.first{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.button-all.first:focus {
+    border-color: #2196F3;
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.button-all.first:hover{
+        border-color: #2196F3;
+            background-color: var(--accent-color);
+            color: #FFFFFF;
+}
+
+.web-sites{
+    width: 125px;
+        height: 38px;
+        left: 593px;
+        top: 174px;
+        background: #F5F4FA;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            /* identical to box height, or 162% */
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;
+            border: 1px solid transparent;
+        border-radius: 4px;
+}
+.web-sites.two{
+    color:#212121;
+    background: #F5F4FA;
+    border: 1px solid transparent;
+}
+.web-sites.two:focus {
+    border: 1px solid transparent;
+    border-color: #2196F3;
+/*     border-radius: 4px; */
+    color: #212121;
+    background: #F5F4FA;
+}
+.web-sites.two:hover{
+    border: 1px solid transparent;
+        border-color: #2196F3;
+            border-radius: 4px;
+            color: #212121;
+            background: #F5F4FA;
+}
+
+.apps{
+    width: 112px;
+        height: 38px;
+        left: 726px;
+        top: 174px;
+        background: #F5F4FA;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            /* identical to box height, or 162% */
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;
+            border: 1px solid transparent;
+        border-radius: 4px;
+}
+.apps.three{
+        color: #212121;
+        background: #F5F4FA;
+}
+.apps.three:focus{
+        border: 1px solid transparent;
+            border-color: #2196F3;
+            border-radius: 4px;
+            color: #212121;
+            background: #F5F4FA;
+}
+.apps.three:hover{
+        border: 1px solid transparent;
+            border-color: #2196F3;
+            border-radius: 4px;
+            color: #212121;
+            background: #F5F4FA;
+}
+
+.design{
+    width: 103px;
+        height: 38px;
+        left: 846px;
+        top: 174px;
+        background: #F5F4FA;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            /* identical to box height, or 162% */
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;
+            border: 1px solid transparent;
+        border-radius: 4px;
+}
+.design.four{
+            color: #212121;
+                background: #F5F4FA;
+            border: 1px solid transparent;
+}
+.design.four:hover,
+.design.four:focus{
+            /* border: 1px solid transparent; */
+                border-color: #2196F3;
+                /* border-radius: 4px; */
+                color: #212121;
+                background: #F5F4FA;
+}
+.marketing{
+    width: 130px;
+        height: 38px;
+        left: 957px;
+        top: 174px;
+        background: #F5F4FA;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            /* identical to box height, or 162% */
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;
+            border: 1px solid transparent;
+        border-radius: 4px;
+}
+.marketing.five{
+                color: #212121;
+                background: #F5F4FA;
+                border: 1px solid transparent;
+}
+.marketing.five:hover,
+.marketing.five:focus{
+                /* border: 1px solid transparent; */
+                    border-color: #2196F3;
+                    /* border-radius: 4px; */
+                    color: #212121;
+                    background: #F5F4FA;
+}
 
 /* Project */
 .project-title {
@@ -381,6 +512,7 @@ font-family: 'Roboto';
         color: #FFFFFF;
         list-style-type: none;
         text-decoration: none;
+        margin-bottom: 9px;
 }
 
 .footer-adress:focus {
@@ -407,6 +539,7 @@ font-family: 'Roboto';
     color: rgba(255, 255, 255, 0.6);
     list-style-type: none;
     text-decoration: none;
+    margin-bottom: 9px;
 }
 
 .footer-email:hover {
